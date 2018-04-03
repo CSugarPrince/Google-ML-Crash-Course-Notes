@@ -1,0 +1,33 @@
+SystemInfo:
+Windows 10 64-bit
+
+Tensorflow:
+Tensorflow-CPU version 3.55, installed using Google's install Tensorflow for Windows guide
+
+Python 3.5.5
+
+
+
+Problem 1: 'import tensorflow' works in Anaconda Command Prompt but not Spyder Ide
+Error Description: 'numpy import error'
+Time Context: After following the Google's Install Tensorflow for Windows guide
+
+Solution: reinstalled numpy 
+In anaconda prompt: 
+'activate tensorflow'
+'install numpy'
+There seemed to be a couple of new packages that were being installed
+
+
+Problem 2: 'module matplotlib' not found
+Error Description: import error
+Time Context: Following the setup part of the first_steps_with_python tutorial on Google's ML crash course
+
+Solution: in the command prompt:
+'activate tensorflow'
+then install all packages by name
+
+
+Install seaborn
+(base) C:\Users\admin>activate tensorflow
+(tensorflow) C:\Users\admin>conda install seaborn 
